@@ -1,0 +1,61 @@
+
+
+
+
+
+:root {
+    --background-color: #EDF1D6;
+    --header-color: #40513B;
+    --heading: #40513B;
+    --background-section: #A4BE7B;
+    --buttons: #A4BE7B;
+    --header-font-family: 'Cinzel Decorative', cursive;
+   --font-size: 1.2rem;
+   
+    
+}body{
+
+}
+
+main {
+    font-size: larger;
+    font-size: var(--font-size);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+  align-items: center;
+  margin:  auto 15em;
+  gap: 2em;
+}
+
+article {
+    background-color: var(--background-color);
+    padding: 1em;
+    
+}
+
+
+h1, h2 {
+    color:var(--heading)
+}
+
+.scrollbtns{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+  
+}
+
+.button scroll-up {
+    position:fixed;
+}
+
+.btns{
+    position: fixed;
+}

@@ -1,0 +1,188 @@
+<!-- 
+
+
+ <main>
+    <section id="scroll-text">
+        <article>
+            <h1>Natuurlijke schoonheid en inspiratie van de natuur</h1>
+            <p>De natuur is een prachtige en diverse omgeving die een belangrijke rol speelt in het behoud van ons
+                milieu en de biodiversiteit op onze planeet. In dit artikel zullen we nader ingaan op wat de natuur zo
+                bijzonder maakt en waarom het belangrijk is om deze te beschermen.</p>
+        </article>
+    </section>
+    <button id="scroll-up-button" onclick="scrollUp()">Scroll up</button>
+    <button id="scroll-down-button" onclick="scrollDown()">Scroll down</button>
+    <button id="pause-button" onclick="pauseScroll()">Pause</button>
+</main>
+
+<style>
+    #scroll-text {
+        overflow: hidden;
+        white-space: wrap;
+    }
+
+    .scrolling-up {
+        animation: scroll-up 4s linear infinite;
+    }
+    
+    .scrolling-down {
+        animation: scroll-down 4s linear infinite;
+    }
+
+    .paused {
+        animation-play-state: paused;
+    }
+
+    @keyframes scroll-up {
+        0% {
+            transform: translateY(0%);
+        }
+
+        100% {
+            transform: translatey(-100%);
+        }
+    }
+    
+    @keyframes scroll-down {
+        0% {
+            transform: translateY(-100%);
+        }
+
+        100% {
+            transform: translatey(0%);
+        }
+    }
+</style> 
+
+<script>
+    let scrollUpButton = document.getElementById('scroll-up-button');
+    let scrollDownButton = document.getElementById('scroll-down-button');
+    let pauseButton = document.getElementById('pause-button');
+    let scrollText = document.getElementById('scroll-text');
+  
+    function scrollUp() {
+        scrollText.classList.remove('scrolling-down');
+        if (scrollText.classList.contains('scrolling-up')) {
+            scrollText.classList.remove('scrolling-up');
+            scrollText.classList.remove('paused');
+            scrollUpButton.innerText = 'Scroll up';
+        } else {
+            scrollText.classList.add('scrolling-up');
+            scrollUpButton.innerText = 'Stop ';
+        }
+    }
+    
+    function scrollDown() {
+        scrollText.classList.remove('scrolling-up');
+        if (scrollText.classList.contains('scrolling-down')) {
+            scrollText.classList.remove('scrolling-down');
+            scrollText.classList.remove('paused');
+            scrollDownButton.innerText = 'Scroll down';
+        } else {
+            scrollText.classList.add('scrolling-down');
+            scrollDownButton.innerText = 'Stop';
+        }
+    }
+
+    function pauseScroll() {
+        scrollText.classList.add('paused');
+    }
+</script>
+
+
+ -->
+
+<main>
+    <section id="scroll-text">
+        <article>
+            <h1>Natuurlijke schoonheid en inspiratie van de natuur</h1>
+            <p>De natuur is een prachtige en diverse omgeving die een belangrijke rol speelt in het behoud van ons
+                milieu en de biodiversiteit op onze planeet. In dit artikel zullen we nader ingaan op wat de natuur zo
+                bijzonder maakt en waarom het belangrijk is om deze te beschermen.</p>
+        </article>
+    </section>
+    <button id="start-button">Start speech recognition</button>
+    <button id="stop-button">Stop selection</button>
+</main>
+   
+<style>
+    #scroll-text {
+        overflow: hidden;
+        white-space: wrap;
+    }
+
+    .selected {
+        background-color: yellow;
+    }
+</style>
+
+<script>
+    let startButton = document.getElementById('start-button');
+    let stopButton = document.getElementById('stop-button');
+    let scrollText = document.getElementById('scroll-text');
+    let recognition = new webkitSpeechRecognition();
+    let isSelecting = false;
+    let startWord = '';
+    let endWord = '';
+
+    recognition.continuous = true;
+    recognition.lang = 'en-US';
+
+    recognition.onresult = function (event) {
+        let transcript = event.results[event.results.length - 1][0].transcript.toLowerCase();
+        if (isSelecting) {
+            if (transcript.includes(endWord)) {
+                isSelecting = false;
+                recognition.stop();
+                stopSelecting();
+            }
+        } else {
+            if (transcript.includes(startWord)) {
+                isSelecting = true;
+                startSelecting();
+            }
+        }
+    };
+
+    function startSelecting() {
+        scrollText.classList.add('selected');
+    }
+
+    function stopSelecting() {
+        scrollText.classList.remove('selected');
+    }
+
+    startButton.addEventListener('click', function () {
+        isSelecting = false;
+        startWord = '';
+        endWord = '';
+        recognition.start();
+    });
+
+    stopButton.addEventListener('click', function () {
+        isSelecting = false;
+        recognition.stop();
+        stopSelecting();
+    });
+
+    scrollText.addEventListener('mouseup', function () {
+        if (isSelecting) {
+            isSelecting = false;
+            recognition.stop();
+            stopSelecting();
+        } else {
+            startWord = window.getSelection().toString().toLowerCase();
+            isSelecting = true;
+            startSelecting();
+        }
+    });
+
+    scrollText.addEventListener('mousedown', function () {
+        if (isSelecting) {
+            endWord = window.getSelection().toString().toLowerCase();
+            isSelecting = false;
+            recognition.stop();
+            stopSelecting();
+        }
+    });
+</script>
