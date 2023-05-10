@@ -1,63 +1,70 @@
-window.onscroll = function() {scrollFunction()};
+let scrollUpButton = document.getElementById('scroll-up-button');
+let scrollDownButton = document.getElementById('scroll-down-button');
+let pauseButton = document.getElementById('pause-button');
+let scrollText = document.getElementById('scroll-text');
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("scroll-btn").style.display = "block";
+
+function copyText() {
+  var scrollText = document.getElementById("scroll-text").innerText;
+  document.getElementById("textContent").value = scrollText;
+}
+
+
+function toggleTitleList() {
+  var titleList = document.getElementById("titleList");
+  if (titleList.style.display === "none") {
+    titleList.style.display = "block";
   } else {
-    document.getElementById("scroll-btn").style.display = "none";
+    titleList.style.display = "none";
   }
 }
 
-
-
-
-document.getElementById("scroll-btn").onclick = function() {topFunction()};
-
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+function copyTitle(title) {
+  document.getElementById("headingText").value = title;
 }
 
 
 
+function toggleParagraphList() {
+  var paragraphList = document.getElementById("paragraphList");
+  if (paragraphList.style.display === "none") {
+    paragraphList.style.display = "block";
+  } else {
+    paragraphList.style.display = "none";
+  }
+}
 
+function copyParagraph(index) {
+  var paragraphs = document.getElementsByTagName("p");
+  if (index >= 0 && index < paragraphs.length) {
+    document.getElementById("paragraphText").value = paragraphs[index].innerText;
+  }
+}
 
+function scrollUp() {
+  scrollText.classList.remove('scrolling-down');
+  if (scrollText.classList.contains('scrolling-up')) {
+    scrollText.classList.remove('scrolling-up');
+    scrollText.classList.remove('paused');
+    scrollUpButton.innerText = 'Scroll up';
+  } else {
+    scrollText.classList.add('scrolling-up');
+    scrollUpButton.innerText = 'Stop ';
+  }
+}
 
-// Select the button element with class "button"
+function scrollDown() {
+  scrollText.classList.remove('scrolling-up');
+  if (scrollText.classList.contains('scrolling-down')) {
+    scrollText.classList.remove('scrolling-down');
+    scrollText.classList.remove('paused');
+    scrollDownButton.innerText = 'Scroll down';
+  } else {
+    scrollText.classList.add('scrolling-down');
+    scrollDownButton.innerText = 'Stop';
+  }
+}
 
-
-// let buttons = document.querySelectorAll(".button");
-// let scrollInterval;
-// let isScrolling = false;
-
-// const startScrolling = () => {
-//   isScrolling = true;
-//   scrollInterval = setInterval(() => {
-//     window.scrollBy(0, 10);
-//   }, 100);
-// };
-
-// const stopScrolling = () => {
-//   isScrolling = false;
-//   clearInterval(scrollInterval);
-// };
-
-// const handleClick = () => {
-//   if (!isScrolling) {
-//     startScrolling();
-//   } else {
-//     stopScrolling();
-//   }
-// };
-
-// buttons.forEach((button) => {
-//   button.addEventListener("click", handleClick);
-// });
-
-// let scrollUpButtons = document.querySelectorAll(".scroll-up");
-
-// scrollUpButtons.forEach((button) => {
-//   button.addEventListener("click", () => {
-//     window.scrollBy(0, -window.scrollY);
-//   });
-// });
+function pauseScroll() {
+  scrollText.classList.add('paused');
+}
