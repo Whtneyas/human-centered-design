@@ -143,40 +143,30 @@ After lsitening to her and having to make her take the test. I got to know a few
      
  
  
- ## Test 2 
+## Test 2 
 During this week. I was finding it difficult ot think about a solution for Nicollette. The scrolling problem which Nicollete had came into mind   so i decided to create two buttons on my website which will help nicollette to easily scroll texts up and down. The button scrolls more paragraphs so that nicollete wouldn't have to press the buttons multiple of times. 
 
 <img width="892" alt="image" src="https://github.com/Whtneyas/human-centered-design/assets/90154152/8a555c18-b334-4654-97ff-edd1af5a8284">
-
- 
- 
- 
  
  
 ### Insights
-
+- The scrolling effect was just a normal solution for her. But she wasn't really enthousiast about it
+- She could easily use the buttons without any direction cos it was cleary stated to scroll up and down.
 - She doesn't want to scroll for a long time 
 - None of the speak recognition was working so i think it is better to try fix that part 
-- She would like to be able to select a paragh and not a whole text. 
+- She would like to be able to select a paragraph and not a whole text. 
 - She is not really good in english so it is better to write the text in Dutch since it is her mother language
 
- 
-
-     
-     
 
 
+## Exclusive Design Principles
 
-
-
-
-
+In my own words, I will define exclusive design as a principle or set of guidelines used to create products that are accessible to a wide range of users, including those with disabilities or people with different needs. In this project, I am focusing on designing for a person with a disability. I believe I am applying exclusive design principles with my designs, as I am designing specifically for someone with a disability. This principle is going to help and guide me throughout my process.
 
 
 
 ### Study Situation
-We have to first understand and study people with disabilites.You cannot design for people with disabilities if you don't understand them and try to know the situation they are in. I was able to execute this principle by getting to know Nicollete and talking to her one on one.
-I observed how she uses speech recognition for sending messages. Eighty percent of the time Nicollete uses speech recognition for almost all her things when interacting with a device.She also finds it difficult with scrolling for along time. She says sometimes it just doesn't work with scrolling. 
+It is important to study the person you are designing for or creating a product for during the process. This is likely to be the first thing you have to do when designing a product. We have to first understand and study people we are designing for .You cannot design for people with disabilities if you don't understand them and try to know the situation they are in. I was able to execute this principle by getting to know Nicollete and talking to her one on one.I observed how she uses speech recognition for sending messages. Eighty percent of the time Nicollete uses speech recognition for almost all her things when interacting with a device.She also finds it difficult with scrolling for along time. She says sometimes it just doesn't work with scrolling. In my design i implemented an easier scrolling effect which will her help her to scroll easily without having to have her finger fixate on her tablet for a long time. The solution for this problem is 
 
 
 
