@@ -210,17 +210,20 @@ Normally, you copy and paste text using a keyboard and a mouse, which isn't the 
  ## Conclusie
  
  
- Testing 
+ ### Testing 
  
  Testing with the user during the first stage of design really played a big role in identifyig the problems and coming up with better solution . Having the user test on your product openss new ideas for you and having to test in group also gives you inspirations to start with your design. 
  
  
  > FAIL FASTER SO THAT YOU CAN SUCCEED SOONER - David Kelly 
  
- 
+ ### Feedback
 Feedback from the lectures also gave me insight on how to tackle certain issues and also my doubt towards ideas i had in mind for Nocollette. I was thinking to far and stressing on how to get a better solution for Nicollette but after the feedback with Eric . I got to know that it is now really about creating the toughest design or best solution but rather my findings during this project and my interations. 
 
-The exclusive  design principles of  Vasilis Hemert also played a big role 
+
+### Exclusive Design principles 
+
+The exclusive design principles of  Vasilis Hemert also played a big role in my journey through this project. I am very glad i was able to read this article before embarking on this project . I was able to get insights on what to expect before embarking on this project. I learnt to first study the user and how she behaves or interact with devices and also ......
 
 
 
