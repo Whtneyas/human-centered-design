@@ -4,6 +4,9 @@
 For this project we have to design for one specific person with a disability. The purpose of this project is to get deeper into the users and to learn how to test your designs. To test how your  well your specific person can use your design or product. I can achieve a better design  by prototyping and testing my design with this specific person.  
 
 
+### Live Demo 👁️
+----------------
+
 ## Tester for my design:🧑‍💻
 
 The tester for my design is Nicollette Besemer 
@@ -189,26 +192,37 @@ Normally, you copy and paste text using a keyboard and a mouse, which isn't the 
 
 
 
+### Features 
+1. Copying tekst with a button
+2. Pasting tekst with a button 
+3. Slecting tekst with a button 
+4. Scrolling text with a button 
+5. Stoppping the scrolling with a button 
 
 
-Formulating questions with how, why and what? 
+### Wishlist 
+1. Find a way to select specific random text with a button 
+2. Selecting text with speech recognition . THAT WORKS PERFECTLY
+3. Hightlight a specific tekst with a button or speech 
+4. Implementing different speeds when scrolling. 
 
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+ ## Conclusie
+ 
+ 
+ Testing 
+ 
+ Testing with the user during the first stage of design really played a big role in identifyig the problems and coming up with better solution . Having the user test on your product openss new ideas for you and having to test in group also gives you inspirations to start with your design. 
+ 
+ ***
+ FAIL FASTER SO THAT YOU CAN SUCCEED SOONER - David Kelly 
+ ***
+ 
+Feedback from the lectures also gave me insight on how to tackle certain issues and also my doubt towards ideas i had in mind for Nocollette. I was thinking to far and stressing on how to get a better solution for Nicollette but after the feedback with Eric . I got to know that it is now really about creating the toughest design or best solution but rather my findings during this project and my interations. 
 
-<!-- ☝️ replace this description with a description of your own work -->
+The exclusive  design principles of  Vasilis Hemert also played a big role 
 
 
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
 
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
 
-<!-- Maybe a table of contents here? 📚 -->
 
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
