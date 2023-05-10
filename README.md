@@ -214,9 +214,9 @@ Normally, you copy and paste text using a keyboard and a mouse, which isn't the 
  
  Testing with the user during the first stage of design really played a big role in identifyig the problems and coming up with better solution . Having the user test on your product openss new ideas for you and having to test in group also gives you inspirations to start with your design. 
  
- ***
- FAIL FASTER SO THAT YOU CAN SUCCEED SOONER - David Kelly 
- ***
+ 
+ > FAIL FASTER SO THAT YOU CAN SUCCEED SOONER - David Kelly 
+ 
  
 Feedback from the lectures also gave me insight on how to tackle certain issues and also my doubt towards ideas i had in mind for Nocollette. I was thinking to far and stressing on how to get a better solution for Nicollette but after the feedback with Eric . I got to know that it is now really about creating the toughest design or best solution but rather my findings during this project and my interations. 
 
