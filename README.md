@@ -1,7 +1,58 @@
 # Human Centered Design ✍️
 
 ## What is the Project? 
-For this project we have to design for one specific person with a disability. The purpose of this project is to get deeper into the users and to learn how to test your designs. To test how your  well your specific person can use your design or product. I can achieve a better design  by prototyping and testing my design with this specific person.  
+For this project we have to design for one specific person with a disability. The purpose of this project is to get deeper into the users and to learn how to test your designs. To test how your  well your specific person can use your design or product. I can achieve a better design  by prototyping and testing my design with this specific person. 
+
+ [Human Centered Design ✍️](#human-centered-design)
+  * [What is the Project?](#what-is-the-project)
+  * [Live Demo 👁️](#live-demo)
+  * [Tester for my design:🧑‍💻](#tester-for-my-design)
+  * [USER SCENARIO](#user-scenario)
+     - [Who is  Nicollete Besemer👩](#who-is--nicollete-besemer--)
+    -  [What?](#what-)
+    -  [How?](#how-)
+    [Questions for Nicollette Besemer❔❔](#questions-for-nicollette-besemer--)
+    [Possible solutions](#possible-solutions)
+  * [Exclusive design principles 🖥️](#exclusive-design-principles----)
+  * [Trials](#trials)
+    [Clipboard](#clipboard)
+  * [TESTING](#testing)
+    -  [Test 1](#test-1)
+    -  [Testing with a tablet](#testing-with-a-tablet)
+    - [Testing with Nicollette.](#testing-with-nicollette)
+    - [Answers for the questions](#answers-for-the-questions)
+    -  [Insights 🧠](#insights)
+    -  [Feedback- Eric'📜](#feedback--eric)
+    -  [Tips from Eric🔖](#tips-from-eric)
+    -  [Test 2](#test-2)
+    -  [Insights](#insights)
+  * [EXCLUSIVE DESIGN PRINCIPLES](#exclusive-design-principles)
+  
+      - [Study Situation](#study-situation)
+       
+      - [Ignore Conventions](#ignore-conventions)
+       
+      - [Prioritise Identity](#prioritise-identity)
+       
+      - [Add Nonsense](#add-nonsense)
+       
+      - [Features](#features)
+       
+      - [Wishlist](#wishlist)
+  * [CONCLUSIE](#conclusie)
+  
+    - [Testing](#testing-1)
+
+    - [Feedback](#feedback)
+
+    - [Exclusive Design principles](#exclusive-design-principles)
+
+
+
+
+
+
+ 
 
 
 ### Live Demo 👁️
