@@ -8,54 +8,62 @@ For this project we have to design for one specific person with a disability. Th
 
 The tester for my design is Nicollette Besemer 
 
-### About Nicollete Besemer👩
+
+## User Scenario
+
+### Who is  Nicollete Besemer👩
 
 
 Nicolette has limited use of her limbs. She uses a wheelchair to move around, and on her computer, she uses speech software and a drawing tablet instead of a mouse. This makes navigation difficult because she cannot use shortcuts. Nicolette is very involved in accessibility. In addition, she organizes a lot for the neighborhood and other volunteers. She used to be a geologist by profession and enjoys visiting natural wonders. She is also passionate about nature.
 
 
-### Problem: Copy and paste Pasting✂️📜
-For her work, Nicolette reads and shares a lot of text pieces on, among other places, the website of the municipality. It is important to be able to extract the correct pieces and forward them. Without the right-click or shortcut keys, it is almost impossible to cut and paste. Design a way to navigate, select, cut, and paste text using speech and a drawing tablet.
+### What? 
+Problem: Copy and paste Pasting✂️📜
+For her work, Nicolette reads and shares a lot of text pieces on, among other places, the website of the municipality. It is important to be able to extract the correct pieces and forward them. Without the right-click or shortcut keys, it is almost impossible to cut and paste. Nicollette wants a way to navigate, select, cut, and paste text using speech and a drawing tablet. Nicollette also want to be able to scroll through text easily.
 
+
+### How? 
+
+I want Nicollete to be able to select, copy and paste just with one click. Nicollette uses 80% percent of the time speech recognition. I think creating  a design that is not speech but a feature that is more helpful is something Nicollete would be glad to us. Let say she is at library reading books and then have to use the speech recognition. This can be a distraction to others in the library. I have created buttons which will help Nicollete to select , copy , and paste titles, paragraphs, and the whole section just by clicking o. For scrolling too i created a button that will serve as a scrolling effect for her and can be activated just with one click and also be stopped while scrolling in one click. With this solution Nicollete wouldn't have to long press on the buttons. All she has to do is press on the button to scroll and when she want to stop scroll press on the pauze button to stop scrolling.
+
+Why? 
+Because this webiste is specifically made for Nicollete. Eventhough , it is made for Nicollette but a lot of other people with the same disabilities as Nicollete will find this also useful.
+
+***
 
 ### Questions for Nicollette Besemer❔❔
+
 I sat with my group who also are to design for Nicollete to brainstorm on what ewe can do for Nicollette and also came up with questions we can ask Nicolletete during the interview so that we get a grasp of what we need to include in the deisgn and what not. 
 
 1. What type of tablet are you currently using? 
 1. After testing the product that we have made. What went well and what went bad. 
 2. Why are you using a tablet and not a mouse? 
-4. What are you able to do and what can't you do? 
-5. Wat voor hinder heb je? 
-6. What type of files and apps do you use
-7. Hoe gebruik je spraak op dit moment? 
-8. Er bestaat er alkopieer en plakken op tekentabletten. How werkt het bij u? 
-9. Waarom is er voor spraak gekoze? 
-10. 
+4. What are you able to do and what can't you do? . 
+5. What type of files and apps do you use
+6. Hoe gebruik je spraak op dit moment? 
 
 ### Possible solutions
 
-So before i test my design with Nicollette i thooght of some possible solutions to this problem. 
+So before i test my design with Nicollette i thought of some possible solutions to this problem. 
 
-- **Navigating- Voice command** 🧭
+**Navigating- Voice command** 🧭
 
- For navigating on the website the user can use voice commands to navigate through the text.For example, say "scroll up" or "scroll down" to  move through the document.
+For navigating on the website the user can use voice commands to navigate through the text.For example, say "scroll up" or "scroll down" to  move through the document.
 
+**Selecting** 
+ Use the drawing tablet to select text. Draw a circle around the text you want to select, and then say "select" or "highlight." The selected text will be highlighted on the screen.
 
-- **Selecting** 
+**Cutting**
 
-  Use the drawing tablet to select text. Draw a circle around the text you want to select, and then say "select" or "highlight." The selected text will be highlighted on the screen.
-
-- **Cutting**
- 
  Draw a line through the selected text using the drawing tablet, and then say "cut" or "delete." The selected text will be removed from the document.
 
- - **Pasting**
-  
+**Pasting**
+
  Move the cursor to the location where you want to paste the text, and then say "paste." The text you cut earlier will be inserted at the cursor location.
 
 
-
 ## Exclusive design principles 🖥️
+
 Exclusive designs are principles implemented when designing for people who are not mostly included when making designs example peopele with disabilitie. 
 
 
@@ -63,20 +71,19 @@ Exclusive designs are principles implemented when designing for people who are n
 ## Trials 
 
 ### Clipboard 
- i  tried using the Clipboard api to try copying and pasting but unfortunately it didnt work cos the cliip api doesn't work old all browser and older browsers. I tried to experiment first in codepen before i work on it in Vscode: 
+I  tried using the Clipboard api to try copying and pasting but unfortunately it didnt work cos the cliip api doesn't work old all browser and older browsers. I tried to experiment first in codepen before i work on it in Vscode: 
  
  <img width="886" alt="image" src="https://user-images.githubusercontent.com/90154152/233311763-8d2928f9-4023-41fc-b511-b49010a563c8.png">
 
 
-
 ## Testing 
 
-  ###  Test 1 
+ ###  Test 1 
   I made a simple web page with some design features to see how the user selects, copies and pastes text on their tablet, as I didn't know what kind of tablet they use or how they use it. I chose to make a nature-themed website because the user likes nature according to the project documentation, hoping that it would be more interesting and enjoyable for them.
   
   <img width="955" alt="image" src="https://user-images.githubusercontent.com/90154152/233330248-52fe7825-81b9-4121-9bf2-64bd681a7d76.png">
   
-  
+  ***
  ### Testing with a tablet
 
 I decided to borrow a tablet from my friend to test it myself since I haven't met Nicollette yet. I realized that selecting text with the tablet was annoying and didn't go as fast as I wanted it to. I also realized that I could only select one word but not a sentence. Additionally, I had to tap on the text with the pen two to three times before I could select a text.
@@ -85,10 +92,10 @@ I decided to borrow a tablet from my friend to test it myself since I haven't me
 
 
 ## Testing with Nicollette. 
+
 My team and i first had a discussion with her about the project and proceeded with asking the questions we prepared to ask her. One of the team member also brought a drawingtablet so that nicollette can test on it. 
 
 ### Answers for the questions
-
 
 1. What type of tablet are you currently using? 
 
@@ -97,12 +104,12 @@ Answer: Nicollette didn't really remember the type of drawing tablet she has. So
 
 1. After testing the product that we have made. What went well and what went bad. 
 
- Answer: She didn't like the fact that she has to click on a button to activate a speech recognition. She told us about how she puts on a speech recognition. She said she puts it's on in the morning and in the eveing she puts it off. She didn't like the fact that she has to always click a button when she wants to speak in the microfone or give instructions to the microfone.
+Answer: She didn't like the fact that she has to click on a button to activate a speech recognition. She told us about how she puts on a speech recognition. She said she puts it's on in the morning and in the eveing she puts it off. She didn't like the fact that she has to always click a button when she wants to speak in the microfone or give instructions to the microfone.
   
 
 2. Why are you using a tablet and not a mouse?
 
-Answer : She said she cannot work with her nouse at all because it involves scrlling and clicking which she is unfortunately not able to do so uses basically a drawing tablet as a mousE. With the drawing tablet she has to hold the pen without clicking anything with her hands but rather use her pen. On the pen, are two buttons which can be used for selecting a text so she uses that.
+Answer: She said she cannot work with her nouse at all because it involves scrlling and clicking which she is unfortunately not able to do so uses basically a drawing tablet as a mousE. With the drawing tablet she has to hold the pen without clicking anything with her hands but rather use her pen. On the pen, are two buttons which can be used for selecting a text so she uses that.
 
 
 3. What type of files and apps do you use 🗂️📑
@@ -112,10 +119,6 @@ Answer : She said she uses mostly word documents and she also selects folders en
 4. How do you currently use the speech recognition? 🔊
 
 Answer: She said she uses the speak recognition for almost everything. She uses it for scrolling, for sending text messages ect. For navigation she tries as much as possible to use the mouse. She also finds it uncomfortable to use the speech recognition in public places since it is going to get people's attention making people aorund her and herself feeling uncomfortable
-
-5. Er bestaat er alkopieer en plakken op tekentabletten. How werkt het bij u? 
-
-9. Waarom is er voor spraak gekozen?
 
 
 ### Insights 🧠
