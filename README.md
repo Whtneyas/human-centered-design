@@ -189,6 +189,7 @@ Normally, you copy and paste text using a keyboard and a mouse, which isn't the 
 ***
 
 ### Add Nonsense
+For the Add Nonsense principle i would want to add a feature that increases the size of the font. Nicollette made mention that she doesn;t have a good vision so i think it will be nice to add this feature . 
 
 
 
