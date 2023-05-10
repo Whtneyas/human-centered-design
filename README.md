@@ -163,16 +163,24 @@ During this week. I was finding it difficult ot think about a solution for Nicol
 
 In my own words, I will define exclusive design as a principle or set of guidelines used to create products that are accessible to a wide range of users, including those with disabilities or people with different needs. In this project, I am focusing on designing for a person with a disability. I believe I am applying exclusive design principles with my designs, as I am designing specifically for someone with a disability. This principle is going to help and guide me throughout my process.
 
-
-
+*** 
 ### Study Situation
-It is important to study the person you are designing for or creating a product for during the process. This is likely to be the first thing you have to do when designing a product. We have to first understand and study people we are designing for .You cannot design for people with disabilities if you don't understand them and try to know the situation they are in. I was able to execute this principle by getting to know Nicollete and talking to her one on one.I observed how she uses speech recognition for sending messages. Eighty percent of the time Nicollete uses speech recognition for almost all her things when interacting with a device.She also finds it difficult with scrolling for along time. She says sometimes it just doesn't work with scrolling. In my design i implemented an easier scrolling effect which will her help her to scroll easily without having to have her finger fixate on her tablet for a long time. The solution for this problem is 
 
+It is important to study the person you are designing for or creating a product for during the process. This is likely to be the first thing you have to do when designing a product. We have to first understand and study the people we are designing for. You cannot design for people with disabilities if you don't understand them and try to know the situation they are in. I was able to execute this principle by getting to know Nicollete and talking to her one-on-one. I observed how she uses speech recognition for sending messages. Eighty percent of the time, Nicollete relies on speech recognition for almost all her tasks when interacting with a device. She also finds it difficult to scroll for a long time. She mentioned that scrolling sometimes doesn't work for her. In my design, I implemented an easier scrolling effect that will help her to scroll easily without having to keep her finger fixated on her tablet for a long time. I added buttons that will allow her to scroll the text with just one click, and she can stop the scrolling with another click.
 
+***
 
 ### Ignore Conventions
 
+Normally, you copy and paste text using a keyboard and a mouse, which isn't the same for Nicollette. Nicollette uses her tablet for all navigations and copying and pasting text. She can also use her fingers on the keyboard, but she doesn't trust her fingers for that functionality. I decided to ignore anything related to the keyboard. I also disregarded the aesthetics of the website because I believe that having the functionality work is more important than creating a beautiful website that doesn't meet the necessary needs of the user or site visitor.
+
+***
+
 ### Prioritise Identity
+
+ After the first test with Nicollette  i realised she said she would love to copy and paste but she also made emphasis on being able to scroll easily without having to long press with her pen on the tablet which i understand het perfectly even people without her disability also gets tired when having to scroll for a long time. After the first test i started to think of the best solution for the scrolling problem she told us she would love if we could create an easier way for that.One thing i noticed about Nicollete was that selecting  a text was difficult and doesn't go as smoothly as she wants it to so i thought what if she can select, copy , and paste a text with just one click. In my last prototype i made a different buttons which select , copy and paste the tekst in a textfield just in one click 
+
+***
 
 ### Add Nonsense
 
