@@ -3,6 +3,21 @@ let scrollDownButton = document.getElementById('scroll-down-button');
 let pauseButton = document.getElementById('pause-button');
 let scrollText = document.getElementById('scroll-text');
 
+let fontSize = 16; // Initial font size in pixels
+
+// Function to increase the font size
+function increaseFontSize() {
+  fontSize += 2; // Increase font size by 2 pixels
+  scrollText.style.fontSize = `${fontSize}px`; // Apply the new font size to the scroll text element
+}
+
+// Function to decrease the font size
+function decreaseFontSize() {
+  if (fontSize > 8) {
+    fontSize -= 2; // Decrease font size by 2 pixels
+    scrollText.style.fontSize = `${fontSize}px`; // Apply the new font size to the scroll text element
+  }
+}
 
 function copyText() {
   var scrollText = document.getElementById("scroll-text").innerText;
